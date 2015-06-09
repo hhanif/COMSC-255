@@ -1,0 +1,8 @@
+	public class TLightTest {
+	   public static void main(String[] args) {
+	      for (TLight light : TLight.values()) {
+	         System.out.printf("%s: %d seconds, next is %s\n", light,
+	               light.getSeconds(), light.next());
+	      }
+	   }
+	}
