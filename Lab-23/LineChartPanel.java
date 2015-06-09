@@ -1,4 +1,4 @@
-// File: LineChartTest.java
+// File: LineChartPanel.java
 // Name: Haris Hanif
 // DVC ID: 1392603
 // IDE:  Eclipse Luna
