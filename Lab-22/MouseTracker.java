@@ -1,0 +1,18 @@
+// File: MouseTracker.java
+// Name: Haris Hanif
+// DVC ID: 1392603
+// IDE:  Eclipse Luna
+// Fig. 14.29: MouseTrackerFrame.java
+// Testing MouseTrackerFrame.
+import javax.swing.JFrame;
+
+public class MouseTracker 
+{
+   public static void main( String[] args )
+   { 
+      MouseTrackerFrame mouseTrackerFrame = new MouseTrackerFrame(); 
+      mouseTrackerFrame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+      mouseTrackerFrame.setSize( 300, 100 ); // set frame size
+      mouseTrackerFrame.setVisible( true ); // display frame
+   } // end main
+} // end class MouseTracker
